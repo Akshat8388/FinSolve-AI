@@ -2,9 +2,9 @@
 
 ## Scenario Overview
 
-**Company (Fictional):** FinSolve Technologies 
-**Domain:** FinTech  
-**Function:** AI Engineering  
+- **Company (Fictional):** FinSolve Technologies
+- **Domain:** FinTech  
+- **Function:** AI Engineering  
  
 This project was developed as part of the **Codebasics Resume Project Challenge**, based on a real-world inspired FinTech scenario. The goal was to build a **GenAI assistant** that securely delivers department-specific information using **Role-Based Access Control (RBAC)** and **Retrieval-Augmented Generation (RAG)**.
 
@@ -58,5 +58,19 @@ As the AI Engineer , your task was to design and build a secure, intelligent ass
 
 ---
 
-## 🧭 Project Flow
+## 🧭 Project Flow Chart
+<img src="Flow_Chart.png" alt="FinSolve AI Flowchart" width="700" />
+
+## Random User Data
+| Name           | Email               | Password   | Role       |
+|----------------|---------------------|------------|------------|
+| Alice Johnson  | alice@company.com   | alice123   | finance    |
+| Bob Smith      | bob@company.com     | bob123     | marketing  |
+| Charlie Davis  | charlie@company.com | charlie123 | hr         |
+| David Lee      | david@company.com   | david123   | general    |
+| Eva Green      | eva@company.com     | eva1234    | marketing  |
+| Frank White    | frank@company.com   | frank123   | executive  |
+
+## Project Demo 
+
 
