@@ -1,0 +1,26 @@
+#def seed_users():
+#    users = [
+#       ("Alice Johnson", "alice@company.com", "alice123", "finance"),
+#       ("Bob Smith", "bob@company.com", "bob123", "marketing"),
+#        ("Charlie Davis", "charlie@company.com", "charlie123", "hr"),
+#        ("David Lee", "david@company.com", "david123", "general"),
+#       ("Eva Green", "eva@company.com", "eva1234", "marketing"),
+#        ("Frank White", "frank@company.com", "frank123", "executive"),
+#        ("Akshat Bhardwaj","akshat@gmail.com","Akshat@123","engineering"),
+#    ]
+
+#    conn = sqlite3.connect("FinSolve_AI/Backend/users.db")
+#    cursor = conn.cursor()
+
+#    for name, email, password, role in users:
+#        try:
+#            cursor.execute("INSERT INTO users (name, email, password, role) VALUES (?, ?, ?, ?)",
+#                           (name, email, password, role))
+#        except sqlite3.IntegrityError:
+#            continue  # Skip if user already exists
+
+#    conn.commit()
+#    conn.close()
+
+ #Call this once
+#seed_users()

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FinSolve AI</title>
+  <link rel="stylesheet" href="styles/chat_styles.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="chat-container">
+      <div class="header">
+        <div class="logo">
+          <span>🧬</span>
+          <h2>FinSolve AI</h2>
+        </div>
+        <div class="user-info" id="user-info">
+          <!-- Dynamic user info -->
+        </div>
+      </div>
+
+      <div class="ai-intro" id="aiintro">
+        <h1>How can I assist you?</h1>
+        <br>
+        <h2><span class="element"></span></h2>
+      </div>
+
+      <div class="messages" id="messages"></div>
+
+      <div class="input-area">
+        <input type="text" id="query" placeholder="What do you want to know..." autofocus />
+        <button id="send-btn">➤</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Typed.js for typing effect -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+   <script src="scripts/chat.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FinSolve Technologies</title>
+  <link rel="stylesheet" href="styles/auth_styles.css">
+  
+</head>
+
+<body>
+  <nav>
+    <div class="nav-bar">
+      <div class="logo">
+        <span>🧬</span>
+        <h2>FinSolve Technologies - FinSolve AI</h2>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="form-wrapper">
+      <!-- Login Form -->
+      <h1>Welcome !</h1>
+      <br>
+      <div class="form-box active" id="loginForm">
+        <h2>🔐Login</h2>
+        <form>
+          <div class="input-group">
+            <span>👤</span>
+            <input type="text" placeholder="User Name" required />
+          </div>
+
+          <div class="input-group">
+            <span>🔑</span>
+            <input type="password" placeholder="Password" required minlength="6" />
+          </div>
+
+          <div class="input-group">
+            <span>🏢</span>
+            <select required>
+              <option value="" disabled selected>Select Department</option>
+              <option value="general">📂 General</option>
+              <option value="finance">💰 Finance</option>
+              <option value="marketing">📈 Marketing</option>
+              <option value="hr">👥 HR</option>
+              <option value="engineering">💻 Engineering</option>
+              <option value="executive">🏢 Executive</option>
+            </select>
+          </div>
+
+          <button type="submit">Login</button>
+        </form>
+        <div class="toggle-link">
+          Don't have an account? <a onclick="toggleForm()">Sign up</a>
+        </div>
+      </div>
+
+      <!-- Signup Form -->
+      <div class="form-box" id="signupForm">
+        <h2>📝Sign Up</h2>
+        <form>
+          <div class="input-group">
+            <span>👤</span>
+            <input type="text" placeholder="User Name" required />
+          </div>
+
+          <div class="input-group">
+            <span>📩</span>
+            <input type="email" placeholder="Email" required />
+          </div>
+
+          <div class="input-group">
+            <span>🔑</span>
+            <input type="password" placeholder="Password" required minlength="6" />
+          </div>
+
+          <div class="input-group">
+            <span>🏢</span>
+            <select required>
+              <option value="" disabled selected>Select Department</option>
+              <option value="finance">💰 Finance</option>
+              <option value="marketing">📈 Marketing</option>
+              <option value="hr">👥 HR</option>
+              <option value="engineering">💻 Engineering</option>
+              <option value="executive">🏢 Executive</option>
+            </select>
+          </div>
+
+          <button type="submit">Sign Up</button>
+        </form>
+        <div class="toggle-link">
+          Already have an account? <a onclick="toggleForm()">Login</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="scripts/auth.js"></script>
+</body>
+</html>
