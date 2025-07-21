@@ -61,16 +61,6 @@ As the AI Engineer , your task was to design and build a secure, intelligent ass
 ## 🧭 Project Flow Chart
 <img src="Flow_Chart.png" alt="FinSolve AI Flowchart" width="700" />
 
-## Random User Data
-| Name           | Email               | Password   | Role       |
-|----------------|---------------------|------------|------------|
-| Alice Johnson  | alice@company.com   | alice123   | finance    |
-| Bob Smith      | bob@company.com     | bob123     | marketing  |
-| Charlie Davis  | charlie@company.com | charlie123 | hr         |
-| David Lee      | david@company.com   | david123   | general    |
-| Eva Green      | eva@company.com     | eva1234    | marketing  |
-| Frank White    | frank@company.com   | frank123   | executive  |
-
 ## Project Demo 
 https://github.com/user-attachments/assets/47a5f40e-120b-4661-b48b-68d973464fe5
 
